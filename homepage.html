@@ -1,28 +1,98 @@
+<!DOCTYPE html>
 <html>
-    <head>
-        <title>Tab Index</title>
-    </head>
+<head>
+    <title>My Homepage</title>
+    <style>
+        body {
+            font-family:Verdana, Geneva, Tahoma, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f0f0;
+        }
 
-    <body>
-      <h1>Tab Index</h1>
+        header {
+            background-color: #a677e9e1;
+            color: white;
+            text-align: center;
+            padding: 1.5rem;
+        }
 
-      <p>
+        nav {
+            display: flex;
+            justify-content: center;
+            background: #333;
+        }
 
-        <!--Tab Index Key-->
+        nav a {
+            color: white;
+            padding: 10px 15px;
+            text-decoration: none;
+        }
 
+        nav a:hover {
+            background: #acba7969;
+        }
+
+        section {
+            padding: 20px;
+        }
+
+        footer {
+            text-align: center;
+            padding: 10px;
+            background-color: #333;
+            color: white;
+        }
+
+        iframe {
+            border: none;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to WZ Homepage</h1>
+    </header>
+
+    <nav>
+        <a href="biodata.html" target="biodataIframe">Biodata</a>
+        <a href="#Experience">Experience</a>
+        <a href="#Education">Education</a>
+        <a href="#Family">Family</a>
+        <a href="gallery.html" target="galleryIframe">Gallery</a>
+        <a href="myhobby.html" target="hobbyIframe">Hobbies</a>
+    </nav>
+
+    <section id="Biodata">
+        <iframe src="biodata.html" width="100%" height="600px"></iframe>
+    </section>
+
+    <section id="Experience">
+        <h2>Experience</h2>
+        <p>Details about your studies and achievements.</p>
+    </section>
+
+    <section id="Education">
+        <h2>Education</h2>
         <ul>
-          <li>
-            <a href="https://www.google.com/" tabindex="2">Google</a>
-          </li>
-          <li>
-            <a href="https://www.bing.com/" tabindex="1">Bing</a>
-          </li>
-          <li>
-            <a href="https://www.yahoo.com/" tabindex="-1">Yahoo</a>
-          </li>
+            <li>Watching movies</li>
+            <li>Reading novels</li>
+            <li>Traveling</li>
         </ul>
-      </p>
-    </body>
+    </section>
+
+    <section id="Family">
+        <h2>Family</h2>
+        <p>Insert your images here.</p>
+    </section>
+
+    <section id="Gallery">
+        <iframe src="gallery.html" width="100%" height="600px"></iframe>
+    </section>
+  
+    <section id="Hobbies">
+        <iframe src="myhobby.html" width="100%" height="600px"></iframe>
+    </section>
+
+</body>
 </html>
-
-
