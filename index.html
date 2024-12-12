@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My Homepage</title>
+    <style>
+        body {
+            font-family:Verdana, Geneva, Tahoma, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f0f0;
+        }
+
+        header {
+            background-color: #a677e9e1;
+            color: white;
+            text-align: center;
+            padding: 1.5rem;
+        }
+
+        header p {
+            font-size: medium;
+            color: black;
+            margin-top: 0.5rem;
+            font-style: normal;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        }
+
+        nav {
+            display: flex;
+            justify-content: center;
+            background: #333;
+        }
+
+        nav a {
+            color: white;
+            padding: 10px 15px;
+            text-decoration: none;
+        }
+
+        nav a:hover {
+            background: #acba7969;
+        }
+
+        section {
+            padding: 20px;
+        }
+
+        footer {
+            text-align: center;
+            padding: 10px;
+            background-color: #333;
+            color: white;
+        }
+
+        iframe {
+            border: none;
+            width: 100%;
+            height: 600px;
+        }
+
+        .profile-pic {
+            text-align: center;
+            padding: 20px;
+        }
+
+        .profile-pic img {
+            width: 200px;
+            height: 200px;
+            border-radius: 50%;
+            border: 4px solid #333;
+            margin-bottom: 10px;
+        }
+
+        .profile-pic img:hover{
+            transform: scale(1.2);
+            box-shadow: 0 4px 15px rgba(red, green, blue, alpha);
+        }
+
+        .profile-pic h2 {
+            margin: 10px 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to WZ Homepage</h1>
+        <p>Your ultimate destination to explore everything about me. Dive in and enjoy the journey!</p>
+    </header>
+
+    <nav>
+        <a href="biodata.html" target="biodataIframe">Biodata</a>
+        <a href="myexperience.html" target="myexperienceIframe">Experience</a>
+        <a href="#Education">Education</a>
+        <a href="#Family">Family</a>
+        <a href="gallery.html" target="galleryIframe">Gallery</a>
+        <a href="myhobby.html" target="hobbyIframe">Hobbies</a>
+    </nav>
+
+    <section id="AboutMe">
+        <div class="profile-pic">
+            <img src="image/myself.jpg" alt="My Profile Picture" class="hover-effect">
+            <h2>About Me</h2>
+            <p>
+                <span style="font-family: Georgia, 'Times New Roman', Times, serif; font-size: 15px; font-weight: bold;">
+                Hi! My name is Wan Nurin Irdina Binti Wan Zamri. This is where my story begins. 
+                Click the button to learn more about me in detail!
+                </span>
+            </p>
+        </div>
+    </section>
+
+    <section id="The Experience">
+        <div class="profile-pic">
+            <img src="image/logo.png" alt="logo" class="hover-effect">
+            <h2>The Experience</h2>
+            <p>
+                <span style="font-family: Georgia, 'Times New Roman', Times, serif; font-size: 15px; font-weight: bold;">
+                Isn't this logo fascinating? What are you waiting for? Dive into my experiences and explore more!
+                </span>
+            </p>
+        </div>
+    </section>
+
+    <section id="EDUCATION">
+        <div class="profile-pic">
+            <img src="image/" alt="" class="hover-effect">
+            <h2>Education</h2>
+            <p>
+                <span style="font-family: Georgia, 'Times New Roman', Times, serif; font-size: 15px; font-weight: bold;">
+                Isn't this logo fascinating? What are you waiting for? Dive into my experiences and explore more!
+                </span>
+            </p>
+        </div>
+    </section>
+
+    <section id="FAMILY">
+        <div class="profile-pic">
+            <img src="image/" alt="" class="hover-effect">
+            <h2>Family</h2>
+            <p>
+                <span style="font-family: Georgia, 'Times New Roman', Times, serif; font-size: 15px; font-weight: bold;">
+                Isn't this logo fascinating? What are you waiting for? Dive into my experiences and explore more!
+                </span>
+            </p>
+        </div>
+    </section>
+
+    <section id="GALLERY">
+        <div class="profile-pic">
+            <img src="image/" alt="" class="hover-effect">
+            <h2>Gallery</h2>
+            <p>
+                <span style="font-family: Georgia, 'Times New Roman', Times, serif; font-size: 15px; font-weight: bold;">
+                Isn't this logo fascinating? What are you waiting for? Dive into my experiences and explore more!
+                </span>
+            </p>
+        </div>
+    </section>
+
+    <section id="HOBBIES">
+        <div class="profile-pic">
+            <img src="image/" alt="" class="hover-effect">
+            <h2>Hobbies</h2>
+            <p>
+                <span style="font-family: Georgia, 'Times New Roman', Times, serif; font-size: 15px; font-weight: bold;">
+                Isn't this logo fascinating? What are you waiting for? Dive into my experiences and explore more!
+                </span>
+            </p>
+        </div>
+    </section>
+
+    <section id="Biodata" style="display: none;">
+        <iframe src="biodata.html" width="100%" height="600px"></iframe>
+    </section>
+
+    <section id="Experience" style="display: none;">
+        <iframe src="myexperience.html" width="100%" height="600px"></iframe>
+    </section>
+
+    <section id="Education" style="display: none;">
+        <h2>Education</h2>
+        <ul>
+            <li>Watching movies</li>
+            <li>Reading novels</li>
+            <li>Traveling</li>
+        </ul>
+    </section>
+
+    <section id="Family" style="display: none;">
+        <h2>Family</h2>
+        <p>Insert your images here.</p>
+    </section>
+
+    <section id="Gallery" style="display: none;">
+        <iframe src="gallery.html" width="100%" height="600px"></iframe>
+    </section>
+  
+    <section id="Hobbies" style="display: none;">
+        <iframe src="myhobby.html" width="100%" height="600px"></iframe>
+    </section>
+
+</body>
+</html>
