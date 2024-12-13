@@ -1,3 +1,118 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My Education</title>
+    <style>
+        body {
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f0f0;
+        }
+
+        header {
+            background-color: #7991e0e1;
+            color: rgb(0, 0, 0);
+            text-align: center;
+            padding: 1.5rem;
+        }
+
+        header h1 {
+            font-size: 45px;
+            margin: 0;
+        }
+
+        header p {
+            font-size: medium;
+            color: black;
+            margin-top: 0.5rem;
+            font-style: normal;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        }
+
+        nav {
+            display: flex;
+            justify-content: center;
+            background: #333;
+        }
+
+        nav a {
+            color: white;
+            padding: 10px 15px;
+            text-decoration: none;
+        }
+
+        nav a:hover {
+            background: #acba7969;
+        }
+
+        section {
+            padding: 20px;
+        }
+
+        footer {
+            text-align: center;
+            padding: 10px;
+            background-color: #333;
+            color: rgb(18, 14, 14);
+        }
+
+        .profile-pic-container {
+            display: flex;
+            justify-content: center;  /* Align images to the right */
+            gap: 20px;                  /* Space between images */
+        }
+
+        .profile-pic {
+            text-align: center;
+        }
+
+        .profile-pic img {
+            width: 270px;
+            height: 200px;
+            border-radius: 50%;
+            border: 4px solid #333;
+            margin-bottom: 10px;
+        }
+
+        .profile-pic img:hover {
+            transform: scale(1.2);
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+        }
+
+        .profile-pic h2 {
+            margin: 10px 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>My Education</h1>
+        <p>Explore my academic journey</p>
+    </header>
+
+    <section class="profile-pic-container">
+        <div class="profile-pic">
+            <img src="image/tadika kemas.jpg" alt="Profile Picture">
+            <p><strong>Figure 1</strong></p>
+        </div>
+        <div class="profile-pic">
+            <img src="image/sk pp 11 3.jpg" alt="Profile Picture">
+            <p><strong>Figure 2</strong></p>
+        </div>
+        <div class="profile-pic">
+            <img src="image/smk pp 11 1.jpg" alt="Profile Picture">
+            <p><strong>Figure 3</strong></p>
+        </div>
+        <div class="profile-pic">
+            <img src="image/UiTM.jpg" alt="Profile Picture">
+            <p><strong>Figure 4</strong></p>
+        </div>
+    </section>
+
+</body>
+</html>
+
 <html>
     <head>
         <title>Tab Exercise</title>
@@ -17,68 +132,48 @@
 
     </style>
     <body>
-        <h1 align="center">Types of tables</h1>
+        <h1 align="center">Tables</h1>
 
-        <table style="width: 70%;" align="center">
-            <caption>Table 1: This is sample table</caption>
+        <table style="width: 90%;" align="center">
+        
             <tr>
-                <th>Name</th>
-                <th>Students ID</th>
-                <th>Group</th>
+                <th>Figure</th>
+                <th>Description</th>
+                <th>Explanation</th>
             </tr>
 
             <tr>
-               <td>Wan Nurin</td>
-               <td>2022818552</td>
-               <td>N5CDIM1105B</td>
+               <td>1</td>
+               <td>Tabika Kemas</td>
+               <td>I began my educational journey at the age of 5 at Tabika Kemas.</td>
             </tr>
 
             <tr>
-                <td>Wan Zamri</td>
-                <td>0160070781</td>
-                <td>IM FACULTY</td>
+                <td>2</td>
+                <td>Sekolah Kebangsaan Putrajaya Presint 11 (3)</td>
+                <td>After completing a year at Tabika Kemas, I continued my education at the preschool in SKPP 11 (3). At that time, I was 6 years old.
+                    Thus began my journey as a student at the primary school. From preschool to Year 6, I remained there until I completed my primary education.</td>
+        
+            </tr>
+
+            <tr>
+                <td>3</td>
+                <td>Sekolah Menengah Kebangsaan Putrajaya Presint 11 (1)</td>
+                <td>After completing my UPSR, I successfully transitioned into secondary school. I attended this school from Form 1 through Form 5. 
+                    Additionally, I achieved outstanding success in my Sijil Pelajaran Malaysia (SPM) examination.</td>
+            </tr>
+
+            <tr>
+                <td>4</td>
+                <td>Universiti Teknologi Mara (UiTM) Cawangan Negeri Sembilan, Kampus Rembau</td>
+                <td>And now, I am currently in my final semester at UiTM.</td>
+            </tr>
+
 
         </table>
 
-        <table style="width: 70%;" align="center">
-            <caption>Table 2: Table with column span</caption>
-             <tr>
-                <th>Name</th>
-                <th colspan="2">Favourite</th>
-             </tr>
-             <tr>
-                <td>Nurin</td>
-                <td>Records Management</td>
-                <td>System</td>
-             </tr>
-        </table>
-
-        <br>
-
-        <table style="width: 70%;" align="center">
-            <caption>Table 3: Table with rowspan</caption>
-            <tr>
-                <th>Name</th>
-                <td>Nurin</td>
-            </tr>
-
-            <tr>
-                <td rowspan="2">Email</td>
-                <td>nurin.gmail.com</td>
-            </tr>
-
-            <tr>
-                <td>student.uitm.edu.my</td>
-            </tr>
-
-        </table>
-
-        <table>
-            <table style="width: 70%;" align="center">
-            <tr>
-                
-            </tr>
-        </table>
+       
 
     </body>
 </html>
+
