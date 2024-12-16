@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Background Image Example</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+        }
+
+        .content {
+            width: 100%; /* Full width */
+            height: 700px; /* Set height */
+            background-image: url('image/beach.jpg'); /* Replace with your image path */
+            background-size: cover; /* Ensure image covers the div */
+            background-repeat: no-repeat; /* Prevent repeating image */
+            background-position: center; /* Center image */
+        }
+
+        .text {
+            padding: 20px;
+            text-align: center;
+            position: relative;
+            top: -35px;
+        }
+
+        .text h1 {
+            font-size: 45px;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+        }
+
+        .text p {
+            font-size: 15px;
+            margin-top: -15px;
+        }
+
+        /* Container for side-by-side images */
+        .image-container {
+            display: flex; /* Use Flexbox for horizontal layout */
+            justify-content: center; /* Center the images */
+            gap: 25px; /* Space between the images */
+            margin-top: 20px; /* Space from the text */
+        }
+
+        .image-container img {
+            width: 250px; /* Set width of images */
+            height: auto; /* Maintain aspect ratio */
+            border-radius: 8px; /* Rounded corners */
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Shadow effect */
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Background image container -->
+    <div class="content"></div>
+
+    <!-- Text and images section -->
+    <div class="text">
+        <h1>My Family</h1>
+        <p>To the family always in my heart</p>
+
+        <!-- Side-by-side images container -->
+        <div class="image-container">
+            <img src="image/my cousin.jpg" alt="My Cousin">
+            <img src="image/side mom.jpg" alt="Side Mom">
+            <img src="image/my mom.jpg" alt="My Mom">
+            <img src="image/my side.jpg" alt="My Side">
+            <img src="image/my lil bro.jpg" alt="My lil bro">
+        </div>
+    </div>
+
+</body>
+</html>
