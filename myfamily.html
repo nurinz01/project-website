@@ -243,19 +243,71 @@
         }
     </style>
 
-<!-- Map Container -->
-<div class="map-container" style="flex: 2; text-align: center; margin-left: 90px;">
-        
-    <h3>RESIDENCE</h3>
-    <img src="image/MAPS SECOND.png" alt="Maps" style="width: 80%; height: 100%; border-radius: 10px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);" usemap="#image-map">
+<title>Tab Exercise</title>
+<style>
+    /* Gaya untuk Table */
+    table {
+        width: 85%;
+        border-collapse: collapse;
+        margin: 20px auto;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        font-family: Arial, sans-serif;
+    }
 
-<map name="image-map">
+    th, td {
+        border: 1px solid #ddd;
+        padding: 10px;
+        text-align: center;
+    }
 
- <area target="_blank" alt="PUTRAJAYA" title="PENEMPATAN" href="https://maps.app.goo.gl/b2jgsnk7R2W7LJPJ8" coords="450,250,30" shape="circle">
- <area target="_blank" alt="DEWAN BIDUANDA" title="DEWAN BIDUANDA" href="https://www.instagram.com/explore/locations/1864774873851593/dewan-biduanda-uitm-rembau-negeri-sembilan/" coords="256,216,39" shape="circle">
- <area target="_blank" alt="HE &amp; SHE COFFEE UiTM REMBAU" title="HE &amp; SHE COFFEE UiTM REMBAU" href="https://www.instagram.com/heandshecoffee_uitmrembau/" coords="398,168,32" shape="circle">
- <area target="_blank" alt="KOLEJ TOK PUAN 1 DAN 2 UiTM REMBAU" title="KOLEJ TOK PUAN 1 DAN 2 UiTM REMBAU" href="https://nsembilan.uitm.edu.my/rembau/index.php/component/sppagebuilder/?view=page&amp;id=36" coords="397,317,27" shape="circle">
-</map>
+    th {
+        background-color: #f2f2f2;
+        font-weight: bold;
+    }
+
+    tr:nth-child(even) {
+        background-color: #f9f9f9;
+    }
+
+    tr:hover {
+        background-color: #f1f1f1;
+    }
+
+    h1 {
+        text-align: center;
+        font-family: Arial, sans-serif;
+        margin-top: 20px;
+    }
+</style>
+</head>
+<body>
+
+    <!-- Map Container for My Residence and My Place of Study side by side -->
+<div class="map-container" style="display: flex; justify-content: center; text-align: center; margin-left: 50px;">
+
+    <!-- My Residence -->
+    <div style="display: inline-block; border: 5px solid #f1f1f1; padding: 15px; border-radius: 8px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); width: 30%; margin-right: 10px;">
+        <h3>My Residence</h3>
+        <a href="https://www.bing.com/maps?osid=4a83c8bd-399d-4c1e-83bf-0c56f10ae688&cp=2.95656~101.67353&lvl=16.42&dir=114.147&pi=-2.415&style=x&v=2&sV=2&form=S00027" target="_blank" title="Click">
+            <img src="image/precint 3.jpg" alt="Maps" title="This is the location of my residence in Putrajaya" style="width: 80%; height: auto; border-radius: 6px;">
+        </a>
+    </div>
+
+    <!-- My Place of Study -->
+    <div style="display: inline-block; border: 5px solid #f1f1f1; padding: 15px; border-radius: 8px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); width: 30%;">
+        <h3>My Place Of Study - First Child</h3>
+        <a href="https://www.bing.com/maps?osid=5c1bd1ab-0b13-4999-84f3-f9d2228ff6d0&cp=2.754351~101.448952&lvl=9.986585&pi=0&v=2&sV=2&form=S00027" target="_blank" title="Click">
+            <img src="image/UITM KAMPUS REMBAU.jpg" alt="Kampus Rembau" title="This is where I pursued my studies at UiTM Rembau Campus" style="width: 80%; height: auto; border-radius: 6px;">
+        </a>
+    </div>
+
+     <!-- Second Child Place of Study -->
+    <div style="display: inline-block; border: 5px solid #f1f1f1; padding: 15px; border-radius: 8px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); width: 30%; margin-left: 10px;">
+         <h3>Place Of Study - Second Child</h3>
+         <a href="https://www.bing.com/maps?osid=291cb5f2-8eda-4681-9d10-d5349a901955&cp=5.706506~101.835764&lvl=14.272882&style=h&pi=0&v=2&sV=2&form=S00027" target="_blank" title="Click">
+            <img src="image/Politeknik, Jeli.jpg" alt="Politeknik, Jeli Kelantan" title="This is where I pursued my studies at UiTM Rembau Campus" style="width: 80%; height: auto; border-radius: 6px;">
+         </a>
+    </div>
 </div>
 
 </body> <!-- Penutupan body -->
