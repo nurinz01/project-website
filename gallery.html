@@ -1,11 +1,29 @@
 <html>
     <head>
-         <title>hobby</title>
+        <title>Gallery</title>
+        <style>
+            /* Pastikan video mengisi seluruh latar belakang */
+            video.background-video {
+                position: fixed;
+                top: 0;
+                left: 0;
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+                z-index: -1; /* Pastikan video berada di belakang semua elemen lain */
+            }
+        </style>
     </head>
-    <body style="background-color: lavenderblush;
-<div style="text-align: center;">
-    <h1 style="text-align: center; color: black; font-size: 40px; font-family: Georgia, 'Times New Roman', Times, serif "> ★ MY GALLERY ★ </h1></div>
-
+    <body style="background-color: lavenderblush;">
+        <!-- Video latar belakang -->
+        <video class="background-video" autoplay muted loop>
+            <source src="video/video background.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+        
+        <div style="text-align: center;">
+            <h1 style="color: black; font-size: 40px; font-family: Georgia, 'Times New Roman', Times, serif;">★ MY GALLERY ★</h1>
+        </div>
     </body>
 </html>
 
@@ -61,7 +79,7 @@
         </div>
         <div class="gallery-item">
             <img src="image/Dekan day.jpg" alt="dekan day">
-            <h4><strong>Dekan Day 🎓🤌</strong></h4>
+            <h4><strong>Dekan Day 🎓🎉</strong></h4>
         </div>
         <div class="gallery-item">
             <img src="image/Dekan girl.jpg" alt="dekan girl">
@@ -77,11 +95,11 @@
         </div>
         <div class="gallery-item">
             <img src="image/original 4.jpg" alt="geng">
-            <h4><strong>The bond keeper of four friends ⋆⭒˚𖠋𖠋𖠋*.⋆</strong></h4>
+            <h4><strong>The bond keeper of four friends 🦋💗</strong></h4>
         </div>
         <div class="gallery-item">
             <img src="image/after present.jpg" alt="hip hip horaay">
-            <h4><strong>Ending with a smile 🫧🦋</strong></h4>
+            <h4><strong>Ending with a smile 😝</strong></h4>
         </div>
        <div class="gallery-item">
             <img src="image/bangi wonderland.jpg" alt="water fun activities">

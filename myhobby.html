@@ -1,8 +1,8 @@
 <html>
     <head>
-         <title>hobby</title>
+         <title>Hobby</title>
     </head>
-    <body style="background-color:lavenderblush">
+    <body style="background-color:lavenderblush;">
     <div style="text-align: center;">
     <h1 style="text-align: center; color: black; font-size: 40px; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ">─── ⋆⋅☆⋅⋆ ──𝓜𝓨 𝓗𝓞𝓑𝓑𝓨─── ⋆⋅☆⋅⋆ ──</h1></div>
 
@@ -93,14 +93,14 @@
                     padding: 10px;
                     border-radius: 15px;
                     display: flex;
-                    justify-content: flex-start;
+                    align-items: center;
                     background-color: #cab3ca;
                     margin-top: 20px;
                 }
                 .kotak img {
                     height: 250px;
                     border-radius: 15px;
-                    margin: 7 10px;
+                    margin-right: 10px;
                     border: 4px solid #000;
                 }
                 .kotak .text {
@@ -135,7 +135,6 @@
         </body>
     </html>
     
-    
     <html>
         <head>
             <title>Gambar dalam Kotak</title>
@@ -145,22 +144,23 @@
                     padding: 10px;
                     border-radius: 15px;
                     display: flex;
-                    justify-content: flex-start;
+                    align-items: center;
                     background-color: #cab3ca;
                     margin-top: 20px;
                 }
                 .kotak img {
-                    height: 250px;
+                    height: 300px;
                     border-radius: 15px;
-                    margin: 0 7px;
+                    margin: 0;
                     border: 4px solid #000;
+                    object-fit: contain;
                 }
                 .kotak .text {
                     text-align: justify;
                     font-size: 15px;
                     padding: 5px;
                     font-weight: bold;
-                    margin-top: 0;
+                    margin: 0;
                     font-family: Georgia, 'Times New Roman', Times, serif;
                     line-height: 1.5;
                 }
@@ -199,20 +199,28 @@
         .video-container {
             text-align: center;
         }
+        .video-container h2 {
+        margin-bottom: 20px;
+        font-family: 'Georgia', 'Times New Roman', Times, serif; /* Gantikan dengan font pilihan */
+        font-size: 28px; /* Saiz font */
+        font-weight: bold; /* Ketebalan font */
+        color: black; /* Warna font */
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3); /* Bayangan teks (pilihan) */
+    }
 
 </style>
 <div class="video-container">
-    <h2 style="margin-bottom: 20px;">𝑨 𝑱𝒐𝒖𝒓𝒏𝒆𝒚 𝒕𝒐 𝑾𝑻𝑪𝑲𝑳 𝒊𝒏 𝑪𝒆𝒍𝒆𝒃𝒓𝒂𝒕𝒊𝒐𝒏 𝒐𝒇 𝒕𝒉𝒆 40𝒕𝒉 𝑷𝑩𝑨𝑲𝑳 2023</h2>
+    <h2 style="margin-bottom: 20px;">A Journey To WTCKL In Celeberation of The 40th PBAKL 2023</h2>
     <div style="display: flex; justify-content: center; gap: 20px; margin-top: 20px;">
-        <video width="250" controls>
+        <video width="260" controls>
            <source src="video/journey.mp4" type="video/mp4">
            
         </video>
-        <video width="250" controls>
+        <video width="260" controls>
            <source src="video/at the train.mp4" type="video/mp4">
 
         </video>
-        <video width="250" controls>
+        <video width="260" controls>
             <source src="video/at PBAKL.mp4" type="video/mp4">
 
         </video>
@@ -292,6 +300,32 @@
     </div>
 </div>
 
+<title>Audio Center</title>
+    <style>
+        /* CSS untuk meletakkan audio di tengah */
+        .audio-container {
+            display: flex;
+            justify-content: center;  /* Tengah secara mendatar */
+            align-items: center;      /* Tengah secara menegak */
+            height: 20vh;            /* Menetapkan ketinggian penuh viewport */
+        }
+    </style>
+</head>
+<body>
+    <div class="audio-container">
+        <audio controls>
+            <source src="audio/Title of Flower of Evil.mp3" type="audio/mp3">
+        </audio>
+    </div>
+
+    <div class="audio-container">
+        <audio controls>
+            <source src="audio/My Savior.mp3" type="audio/mp3">
+        </audio>
+    </div>
+
+</body>
+</html>
 
 
        
