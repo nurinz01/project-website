@@ -24,7 +24,7 @@
                  I quickly seized the chance to explore as many books as possible at PBAKL. 
                  Not only was the venue spacious, but various publishers were offering significant discounts to attract visitors. 
                  I was one of those who took advantage of the discounts, which ranged from 10% to 15%. These discounts had a strong influence on visitors, encouraging them to buy as many books as possible.
-                 I noticed that visitors came prepared, bringing their own bags to store the books they purchased. I realized that I’m not the only one who loves, is passionate about, and is crazy about books. 
+                 I noticed that visitors came prepared, bringing their own bags to store the books they purchased. I realized that I'm not the only one who loves, is passionate about, and is crazy about books. 
                  In fact, I make it a point to attend any book fairs that are organized.
                  <br><br>
                  This experience and the photo will be cherished as a personal memory. In my view, this is a once-in-a-lifetime opportunity.✦
@@ -45,7 +45,7 @@
             padding: 10px;
             border-radius: 15px;
             display: flex;
-            justify-content: float;left:auto
+            justify-content: flex-start;
             background-color: #c0b3c0;
         }
         .kotak img {
@@ -73,10 +73,10 @@
             </p>As seen in the image beside, this is the book I found at WTCKL. 
                 The book is from the publisher FIXI, which has been my favorite since high school, as it was the first novel I ever read. 
                 In fact, it was this book that introduced me to the world of literature.
-                Whenever Fixi releases a new book, I make sure to grab a copy as soon as it’s available, before the stock runs out. 
+                Whenever Fixi releases a new book, I make sure to grab a copy as soon as it's available, before the stock runs out. 
                 Most new books tend to sell out quickly due to limited print runs, creating anticipation among readers for the release of upcoming titles.
                 <br><br>
-                When I visited WTCKL, my main target was to head straight to the Fixi booth on Level 2. Every time there’s a PBAKL, Fixi offers promotions such as purchasing 3 Fixi books to receive a RM 20 voucher. 
+                When I visited WTCKL, my main target was to head straight to the Fixi booth on Level 2. Every time there's a PBAKL, Fixi offers promotions such as purchasing 3 Fixi books to receive a RM 20 voucher. 
                 They also reduce the prices to the lowest possible, making it a compelling offer. 
                 In my opinion, they are very clever in utilizing this opportunity to attract visitors to buy their books indirectly.
                 For me, purchasing 3 books for around RM 50 is affordable and within reach for most visitors, making it a great deal.
@@ -126,8 +126,8 @@
                         It encourages readers to imagine how a particular story would unfold.
                         <br><br>
                         <i>Fixi is truly a publisher for mature readers</i>. Because of this, any risks in terms of language or slang used by Fixi are the responsibility of the reader themselves.
-                        Some of Fixi's <i>books are very open and their content is not censored</i>, as this is their true intention – to deliver their stories in a straightforward and honest manner. 
-                        This is also one of the reasons why many readers are drawn to Fixi’s books, which cover a wide range of genres that appeal to various reader preferences.
+                        Some of Fixi's <i>books are very open and their content is not censored</i>, as this is their true intention to deliver their stories in a straightforward and honest manner. 
+                        This is also one of the reasons why many readers are drawn to Fixi's books, which cover a wide range of genres that appeal to various reader preferences.
                     </p>
                 </div>
             </div>
@@ -184,7 +184,7 @@
                        It would be a missed opportunity not to enjoy this genre, as it allows readers to immerse themselves in imagining themselves as characters within the world created in this fixi novel.
                        <br><br>
                        This book is perfect for readers with a vivid imagination, as this genre is ideal for them. Each book tells a different story, but they are all interconnected with Notes 2 and 3. 
-                       That’s why it’s important to read the entire series, as each book flows seamlessly into the next, all the way to the end.
+                       That's why it's important to read the entire series, as each book flows seamlessly into the next, all the way to the end.
                     </p>
                 </div>
             </div>
@@ -238,13 +238,13 @@
                 padding: 10px;
                 border-radius: 15px;
                 display: flex;
-                justify-content: float;left:auto
+                justify-content: flex-start;
                 background-color: #c0b3c0;
             }
             .kotak img {
                 height: 250px;
                 border-radius: 15px;
-                margin: 5 10px;
+                margin: 5px 10px;
                 border: 4px solid #000;
             }
             .kotak .text{
@@ -301,15 +301,20 @@
 </div>
 
 <title>Audio Center</title>
-    <style>
-        /* CSS untuk meletakkan audio di tengah */
-        .audio-container {
-            display: flex;
-            justify-content: center;  /* Tengah secara mendatar */
-            align-items: center;      /* Tengah secara menegak */
-            height: 20vh;            /* Menetapkan ketinggian penuh viewport */
-        }
-    </style>
+<style>
+    /* CSS untuk meletakkan audio di tengah */
+    .audio-container {
+        display: flex;
+        justify-content: center;  /* Tengah secara mendatar */
+        align-items: center;      /* Tengah secara menegak */
+        height: 16vh;            /* Menetapkan ketinggian penuh viewport */
+    }
+
+    .audio-container:nth-child(2) {
+        position: relative;
+        top: -7px;
+    }
+</style>
 </head>
 <body>
     <div class="audio-container">
@@ -323,7 +328,6 @@
             <source src="audio/My Savior.mp3" type="audio/mp3">
         </audio>
     </div>
-
 </body>
 </html>
 
